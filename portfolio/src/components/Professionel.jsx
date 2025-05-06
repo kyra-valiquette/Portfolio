@@ -1,7 +1,10 @@
+import './Professionel.css'
+
 export default function Professionel(){
     return (
         <div className="experience-professionel">
-            <h3>Expérience professionel</h3>
+            <h1>Expérience professionel</h1>
+            <div className="details">
             <ul>
                 <p>Scolarité</p>
             </ul>
@@ -9,8 +12,9 @@ export default function Professionel(){
                 <p>Emplois</p>
             </ul>
             <ul>
-                Références
+                <p>Références</p>
             </ul>
+            </div>
         </div>
     )
 }

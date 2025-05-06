@@ -1,0 +1,27 @@
+.experience-professionel{
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    justify-items: center;
+}
+.experience-professionel h1{
+    background-color:black;
+    width:100%;
+    text-align:center;
+    padding:10px;
+    color:white;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    display:flex;
+}
+.experience-professionel ul{
+    margin:30px;
+    font-size:30px;
+}
