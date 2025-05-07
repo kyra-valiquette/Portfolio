@@ -1,0 +1,52 @@
+.experience-professionelle {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 30px;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+    border-radius: 8px;
+    width:100%;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    color: #92b691;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+

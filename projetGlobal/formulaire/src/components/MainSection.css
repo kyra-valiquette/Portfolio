@@ -1,0 +1,46 @@
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: "Exo 2", sans-serif;
+}
+.form label {
+    font-weight: 600;
+    font-size: 16px;
+}
+.form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #1a1a1a;
+    color: white;
+}
+.form input::placeholder {
+    color: #aaa;
+}
+
+.form button {
+    padding: 10px;
+    background-color: #92b691;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.form button:hover {
+    background-color: #92b691;
+}
