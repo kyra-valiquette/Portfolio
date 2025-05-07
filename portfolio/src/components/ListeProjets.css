@@ -12,3 +12,41 @@
     justify-content: center;
     align-items: center;
 }
+.projet {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #2c2c2c;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.projet:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.projet img {
+    width: 30%;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.projet div {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.projet a {
+    background-color: #92b691;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.projet a:hover {
+    background-color: #92b691;
+}
