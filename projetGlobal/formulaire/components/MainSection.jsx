@@ -1,11 +1,10 @@
 import './MainSection.css'
 import {useState} from 'react'
 
-export default function MainSection(){
-    const [projets, setProjets] = useState([]);
+export default function MainSection({addProject}){
     
     return (
-        <form className="form" action="">
+        <form className="form" action={addProject}>
             <label htmlFor="nom">Nom du projet : </label>
             <input
                 type="text"
@@ -21,13 +20,15 @@ export default function MainSection(){
                 placeholder="petit site pour..."
             />
             <label htmlFor="techno">Technologie(s) utilisé(s) (Séparez les avec '/'):</label>
-            <input
-                type="text"
-                id="techno"
-                name="techno"
-                placeholder="React/Google/diffSites..."
-            />
-            <label htmlFor="image">Image du projet :</label>
+            <select id="techno" name="techno" defaultValue="" required>
+                <option value="" disabled>-- Selectionnez une technologie --</option>
+                <option value="Angular">Angular</option>
+                <option value="Backbone">Backbone</option>
+                <option value="Meteor">Meteor</option>
+                <option value="React">React</option>
+                <option value="Others">Autre...</option>
+            </select>
+            <label htmlFor="image">Image du projet (Lien) :</label>
             <input
                 type="file"
                 id="image"
@@ -44,3 +45,6 @@ export default function MainSection(){
         </form>
     )
 }
+
+
+        

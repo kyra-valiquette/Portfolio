@@ -1,16 +1,14 @@
 import Header from "./components/Header"
 import MainSection from "./components/MainSection"
 import Footer from "./components/Footer"
-import './App.css'
-import NavBar from "./components/NavBar";
+import './Formulaire.css'
 
-function App() {
+function App({addProject}) {
 
   return (
     <>
-      <NavBar/>
       <Header/>
-      <MainSection/>
+      <MainSection addProject={addProject}/>
       <Footer/>
     </>
   );

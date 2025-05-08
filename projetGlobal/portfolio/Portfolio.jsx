@@ -1,14 +1,16 @@
 import Header from "./components/Header"
 import MainSection from "./components/MainSection"
 import Footer from "./components/Footer"
-import './App.css'
+import './Portfolio.css'
+import NavBar from "./components/NavBar";
 
-function App() {
+function App({projets}) {
 
   return (
     <>
+      <NavBar/>
       <Header/>
-      <MainSection/>
+      <MainSection projets={projets}/>
       <Footer/>
     </>
   );

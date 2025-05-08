@@ -1,7 +1,7 @@
-.footer{
+.liste-projets h1{
     background-color:black;
-    width:100%;
-    text-align:right;
+    width:auto;
+    text-align:center;
     padding:10px;
     color:white;
     font-family: "Exo 2", sans-serif;
@@ -9,7 +9,6 @@
     font-weight: 600;
     font-style: normal;
     display:flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
-    font-size:10px;
 }
