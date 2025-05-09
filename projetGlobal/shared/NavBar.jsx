@@ -11,6 +11,9 @@ export default function Navbar() {
                 <li>
                     <Link to="/portfolio">Voir le portfolio</Link>
                 </li>
+                <li>
+                    <Link to="./api">API dad joke generator</Link>
+                </li>
             </ul>
         </nav>
     );
