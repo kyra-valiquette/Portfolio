@@ -17,7 +17,6 @@
     font-size: 16px;
 }
 .form input {
-    width: 100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -42,5 +41,25 @@
 }
 
 .form button:hover {
+    background-color: #88aa87;
+}
+
+.form select{
+    padding: 10px;
+    background-color: #1a1a1a;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+::file-selector-button {
+    padding: 5px 10px;
+    border-radius: 5px;
     background-color: #92b691;
+    transition: 0.3s ease-in-out;
+}
+::file-selector-button:hover {
+    background-color: #88aa87
 }

@@ -1,0 +1,12 @@
+.joke-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.joke-list li {
+    flex: 1;
+    min-width: 300px;
+    max-width: 100%;
+}

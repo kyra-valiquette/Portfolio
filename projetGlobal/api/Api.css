@@ -1,0 +1,23 @@
+.gen{
+    min-height: 100vh;
+}
+.gen h1{
+    background-color: black;
+    width: auto;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-family: "Exo 2", sans-serif;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.gen select{
+    background-color:#92b691;
+    width:100%;
+    text-align:center;
+    font-family: "Exo 2", sans-serif;
+    font-weight:bolder;
+}
+.gen select option{
+    font-family: "Exo 2", sans-serif;
+    font-weight:bold;
+}

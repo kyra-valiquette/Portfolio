@@ -1,5 +1,4 @@
 import './MainSection.css'
-import {useState} from 'react'
 
 export default function MainSection({addProject}){
     
@@ -28,7 +27,7 @@ export default function MainSection({addProject}){
                 <option value="React">React</option>
                 <option value="Others">Autre...</option>
             </select>
-            <label htmlFor="image">Image du projet (Lien) :</label>
+            <label htmlFor="image">Image du projet :</label>
             <input
                 type="file"
                 id="image"

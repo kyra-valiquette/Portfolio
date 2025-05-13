@@ -12,10 +12,10 @@ Ordre de développement :
 2. Mercredi 7 mars - 3 Heures - Continuer code page Portfolio + Début page Formulaire + Connecter les pages à une autre page main + continuer CSS (fait)
 3. Jeudi 8 mars - 3 Heures - Finition du code page Portfolio + Finition code page Formulaire + Finition CSS pour ces 2 pages et l'entête qui lie les 2 (fait)
 4. Vendredi 9 mars - 1 Heure - Choisir API + Commencer la page de API (fait)
-5. Continuer page API + commencer CSS avec l'API (pas fait)
-6. Finir page API + finir CSS API (pas fait)
-7. Améliorer le CSS et troubleshooting (pas fait)
-8. Finition
+5. Mardi 13 mars - 1 Heure - Continuer page API + commencer CSS avec l'API (fait)
+6. Mardi 13 mars - 1 Heure - Finir page API + finir CSS API (fait)
+7. Améliorer le CSS et troubleshooting (fait)
+8. Finition(fait)
 
 Commentaires :
 1. Jeudi 8 mars - Structure de base est bonne, juste choisir le API le plus vite possible 

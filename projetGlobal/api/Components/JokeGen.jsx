@@ -1,9 +1,14 @@
-export default function JokeGen(props){
+import './JokeGen.css'
+import Joke from './Joke'
+export default function JokeGen({jokes, categoryFilter}){
+    const jokesFilter = jokes.filter(joke => 
+        (categoryFilter === "All" || joke.category === categoryFilter));
+    
     return (
-        <div className="jokeGenerator">
-            <h2>DAD JOKE APP</h2>
-            <p>{props.joke === null ? "No joke currently generated" : props.joke}</p>
-            <button onClick={() => props.genJoke()}>Generate random</button>
-        </div>
+        <ul className="joke-list">
+            {jokesFilter.map((joke, index) => (
+                <Joke key={index} category={joke.category} setup={joke.setup} delivery={joke.delivery}/>
+            ))}
+        </ul>
     )
 }

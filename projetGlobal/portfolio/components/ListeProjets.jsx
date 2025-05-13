@@ -1,5 +1,4 @@
 import './ListeProjets.css'
-import Projet from './Projet'
 import Carousel from './Carousel'
 
 export default function ListeProjets({projets}){

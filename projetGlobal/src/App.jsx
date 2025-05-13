@@ -6,7 +6,7 @@ import Formulaire from "../formulaire/Formulaire";
 import {useState} from 'react'
 import Introduction from '../shared/Introduction'
 import Api from '../api/Api'
-
+import Footer from '../shared/Footer'
 function App() {
   const [projets, setProjets] = useState([]);
 
@@ -24,15 +24,15 @@ function App() {
     ])
   }
   return (
-    <div>
+    <div className="main">
       <Navbar />
-      <Introduction />
       <Routes>
+        <Route path="/" element={<Introduction/>}/>
         <Route path="/portfolio/*" element={<Portfolio projets={projets}/>} />
         <Route path="/formulaire/*" element={<Formulaire addProject={addProject}/>} />
         <Route path="/api/*" element={<Api/>}/>
       </Routes>
-      
+      <Footer/>
     </div>
   )
 }
