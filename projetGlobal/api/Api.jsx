@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import JokeGen from './Components/JokeGen'
 import './Api.css'
-const Api = () => {
+export default function Api(){
     const [jokes, setJokes] = useState([]);
     const [categoryFilter, setCategoryFilter] = useState("All");
 
@@ -43,4 +43,4 @@ const Api = () => {
     );
 };
 
-export default Api;
+

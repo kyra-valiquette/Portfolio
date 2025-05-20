@@ -15,8 +15,6 @@
 }
 
 .carousel button {
-    position: absolute;
-    top: 50%;
     transform: translateY(-50%);
     background: #92b691;
     color: white;
@@ -73,10 +71,10 @@
     padding: 8px 12px;
     border-radius: 5px;
     text-decoration: none;
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease-in-out;
 }
 
 .projet a:hover {
-    background-color: #92b691;
+    background-color: #4b5e4a;
 }
 /*Copilot m'a beaucoup aidé pour ce CSS (J'ai fait la majorité à main mais certaines parties de fonctionnaient pas donc j'ai utilisé Copilot)*/

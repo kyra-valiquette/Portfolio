@@ -3,7 +3,7 @@ import MainSection from "./components/MainSection"
 import './Portfolio.css'
 import NavBar from "./components/NavBar";
 
-function App({projets}) {
+function Portfolio({projets}) {
 
   return (
     <>
@@ -14,4 +14,4 @@ function App({projets}) {
   );
 }
 
-export default App
+export default Portfolio

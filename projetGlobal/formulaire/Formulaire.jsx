@@ -2,7 +2,7 @@ import Title from "./components/Title"
 import MainSection from "./components/MainSection"
 import './Formulaire.css'
 
-function App({addProject}) {
+function Formulaire({addProject}) {
 
   return (
     <div className="formulaire">
@@ -12,4 +12,4 @@ function App({addProject}) {
   );
 }
 
-export default App
+export default Formulaire

@@ -9,13 +9,13 @@ export default function Navbar() {
                     <Link to="/">Accueil</Link>
                 </li>
                 <li>
-                    <Link to="/formulaire">Ajouter un projet</Link>
-                </li>
-                <li>
                     <Link to="/portfolio">Voir le portfolio</Link>
                 </li>
                 <li>
-                    <Link to="./api">API joke generator</Link>
+                    <Link to="/formulaire">Ajouter un projet</Link>
+                </li>
+                <li>
+                    <Link to="/api">API joke generator</Link>
                 </li>
             </ul>
         </nav>

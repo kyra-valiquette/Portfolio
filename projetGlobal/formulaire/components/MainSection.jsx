@@ -18,7 +18,7 @@ export default function MainSection({addProject}){
                 name="desc"
                 placeholder="petit site pour..."
             />
-            <label htmlFor="techno">Technologie(s) utilisé(s) (Séparez les avec '/'):</label>
+            <label htmlFor="techno">Technologie utilisée:</label>
             <select id="techno" name="techno" defaultValue="" required>
                 <option value="" disabled>-- Selectionnez une technologie --</option>
                 <option value="Angular">Angular</option>

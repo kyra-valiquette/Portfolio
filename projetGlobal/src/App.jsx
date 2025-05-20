@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "../shared/Navbar";
 import Portfolio from "../portfolio/Portfolio";
 import Formulaire from "../formulaire/Formulaire";
@@ -15,7 +15,7 @@ function App() {
     setProjets(ancienProjets => [
       ...ancienProjets, {
         id: ancienProjets.length + 1,
-        img: URL.createObjectURL(formData.get("image")),
+        img: URL.createObjectURL(formData.get("image")), //Aidé par copilot pcq le URL ne fonctionnait pas
         nom: formData.get("nom"),
         desc: formData.get("desc"),
         techno: formData.get("techno"),

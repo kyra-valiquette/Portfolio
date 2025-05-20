@@ -13,11 +13,11 @@ export default function Carousel({projets}) {
   };
   
   return (
-    <>
     <div className="carousel">
-      <button onClick={handlePrevious} className="carousel-prev">Previous</button>
+      
       {projets[index] != undefined ? 
       <div className="projet">
+        <button onClick={handlePrevious} className="carousel-prev">Previous</button>
         <img src={projets[index].img != undefined ? projets[index].img : "https://www.seekpng.com/png/full/423-4235598_no-image-for-noimage-icon.png"} alt="Image de projet"/>
         <div>
             <h3>{projets[index].nom}</h3>
@@ -25,15 +25,17 @@ export default function Carousel({projets}) {
             <p>{projets[index].techno}</p>
             <a href={projets[index].lien} target="_blank">Lien vers Github</a>
         </div>
+        <button onClick={handleNext} className="carousel-next">Next</button>
       </div>
       :
       <div className="projet">
+        <button onClick={handlePrevious} className="carousel-prev">Previous</button>
         <img src="https://static.thenounproject.com/png/4385680-512.png" alt="no-project"/>
+        <button onClick={handleNext} className="carousel-next">Next</button>
       </div>
       }
-      <button onClick={handleNext} className="carousel-next">Next</button>
+      
     </div>
-    </>
   );
 };
 
